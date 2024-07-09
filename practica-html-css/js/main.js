@@ -3,7 +3,9 @@
 
     //const denunciaBtn = document.getElementById("denuncias");
     const enviarBtn = document.getElementById("enviar");
+
     const usuariohtml = document.getElementById("usuario");
+    
     const passworhtml = document-getElementById("password");
 
 

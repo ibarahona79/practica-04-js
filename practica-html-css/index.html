@@ -38,23 +38,40 @@
     <main class="main-content">
         <div class="content">
             <article>
-                <img src="https://www.trabajo.gob.hn/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-9.44.59-AM-768x507.jpeg" alt="imagen de la gaceta">
+                <img src="https://www.trabajo.gob.hn/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-31-at-9.44.59-AM-768x507.jpeg"
+                    alt="imagen de la gaceta">
                 <h2>Es Oficial: SIHCAL ya fue publicado en la Gaceta</h2>
                 <p>feb, 1 2024 | Noticias</p>
-                <p>Todas las empresas tienen seis (6) meses a partir de dicha publicación para inscribirse al Sistema Hondureño de Casos Laborales y Registro Nacional Simplificado de Patronos, SRNSP. La agilización y automatización del acceso a información es vital para la protección de...</p>
+                <p>Todas las empresas tienen seis (6) meses a partir de dicha publicación para inscribirse al Sistema
+                    Hondureño de Casos Laborales y Registro Nacional Simplificado de Patronos, SRNSP. La agilización y
+                    automatización del acceso a información es vital para la protección de...</p>
             </article>
-            
+
         </div>
         <aside class="sidebar">
             <div class="widwet">
-                <button>Denuncia</button>
+                <form action="" class="formulario">
+                    <div class="form-group">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" id="usuario" name="usuario" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="btn" id="enviar">Ingresar</button>
+                </form>
+
+                <div class="denuncias">
+                    <img src="./images/dhjkf.jpeg" alt="">
+                    <button type="submit" class="btn">Tarea de Oto</button>
+                </div>
+                <!-- <button type="submit" class="btn">Denuncia</button> -->
             </div>
-            <div class="widwet">
-                <button>SIHCAL 22</button>
-            </div>
-            <div class="widwet">
+            
+            <!--  <div class="widwet">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/grplVttindo?si=gm66eE2hxYnrAlEW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            </div> -->
         </aside>
     </main>
     <footer class="footer">
@@ -62,6 +79,7 @@
             2024 ARGENTINA CAMPEON COPA AMERICA
         </p>
     </footer>
+    <script src="./js/main.js"></script>
 
 </body>
 
